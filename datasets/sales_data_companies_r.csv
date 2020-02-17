@@ -1,0 +1,20 @@
+dt,Company,Product,Units
+2015-02-02T08:30:00Z,Hooli,Software,3
+2015-02-02T21:00:00Z,Mediacore,Hardware,9
+2015-02-03T14:00:00Z,Initech,Software,13
+2015-02-04T15:30:00Z,Streeplex,Software,13
+2015-02-04T22:00:00Z,Acme,Coporation Hardware,14
+2015-02-05T02:00:00Z,Acme,Coporation Software,19
+2015-02-05T22:00:00Z,Hooli,Service,10
+2015-02-07T23:00:00Z,Acme,Coporation Hardware,1
+2015-02-09T09:00:00Z,Streeplex,Service,19
+2015-02-09T13:00:00Z,Mediacore,Software,7
+2015-02-11T20:00:00Z,Initech,Software,7
+2015-02-11T23:00:00Z,Hooli,Software,4
+2015-02-16T12:00:00Z,Hooli,Software,10
+2015-02-19T11:00:00Z,Mediacore,Hardware,16
+2015-02-19T16:00:00Z,Mediacore,Service,10
+2015-02-21T05:00:00Z,Mediacore,Software,3
+2015-02-21T20:30:00Z,Hooli,Hardware,3
+2015-02-25T00:30:00Z,Initech,Service,10
+2015-02-26T09:00:00Z,Streeplex,Service,4

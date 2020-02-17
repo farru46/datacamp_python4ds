@@ -1,0 +1,20 @@
+﻿Date,Time,Company,Product,Units
+02/02/15,8:30:00,Hooli,Software,3
+02/02/15,21:00:00,Mediacore,Hardware,9
+03/02/15,14:00:00,Initech,Software,13
+04/02/15,15:30:00,Streeplex,Software,13
+04/02/15,22:00:00,Acme,Coporation Hardware,14
+05/02/15,2:00:00,Acme,Coporation Software,19
+05/02/15,22:00:00,Hooli,Service,10
+07/02/15,23:00:00,Acme,Coporation Hardware,1
+09/02/15,9:00:00,Streeplex,Service,19
+09/02/15,13:00:00,Mediacore,Software,7
+11/02/15,20:00:00,Initech,Software,7
+11/02/15,23:00:00,Hooli,Software,4
+16/02/15,12:00:00,Hooli,Software,10
+19/02/15,11:00:00,Mediacore,Hardware,16
+19/02/15,16:00:00,Mediacore,Service,10
+21/02/15,5:00:00,Mediacore,Software,3
+21/02/15,20:30:00,Hooli,Hardware,3
+25/02/15,0:30:00,Initech,Service,10
+26/02/15,9:00:00,Streeplex,Service,4

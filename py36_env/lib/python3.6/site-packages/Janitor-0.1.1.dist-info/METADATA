@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: Janitor
+Version: 0.1.1
+Summary: Simple HTTP Server behind the OAuth
+Home-page: https://github.com/kimjayd/janitor
+Author: Hyunjun Kim
+Author-email: kim@hyunjun.kr
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Server
+Requires-Dist: Flask
+Requires-Dist: gevent
+Requires-Dist: wsgi-oauth2
+
+Janitor
+=======
+
+Janitor is a simple HTTP Server that supports OAuth authentication.
+
+1. Install Janitor::
+
+    $ pip install janitor
+
+2. Write a configuration file::
+
+    $ cat example.cfg
+    [janitor]
+    host = 127.0.0.1
+    port = 8000
+    secret_key = realsecretkey123123 
+    base_dir = /path/to/protected/files
+
+    [auth]
+    service = github
+    client_id = githubapplicationclientid
+    client_secret = githubapplicationclientsecret
+    allowed_orgs = MyGHOrg
+
+3. Run the app with Janitor::
+
+    $ janitor -c example.cfg
+
+
